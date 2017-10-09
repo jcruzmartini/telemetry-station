@@ -1,0 +1,4 @@
+>>> Warning 201 "mainSrc.c" Line 666(1,1): Assignment inside relational expression
+>>> Warning 202 "mainSrc.c" Line 17(5,8): Variable never used:   rs232_errors
+      Memory usage:   ROM=66%      RAM=56% - 69%
+      0 Errors,  2 Warnings.

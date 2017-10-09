@@ -1,0 +1,177 @@
+
+ROM used: 20694 (32%)
+          20694 (32%) including unused fragments
+
+          5 Average locations per line
+          21 Average locations per statement
+
+RAM used: 849 (21%) at main() level
+          1059 (27%) worst case
+
+Stack used: 8 worst case (out of 30 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1111   602  61  main.c
+  455     0   0  ..\..\ARCHIV~1\PICC\devices\18F4610.h
+  243    94  10  modem.c
+  409     0   0  ..\..\ARCHIV~1\PICC\drivers\string.h
+   28     0   0  ..\..\ARCHIV~1\PICC\drivers\stddef.h
+   28     0   0  ..\..\ARCHIV~1\PICC\drivers\ctype.h
+ 1273     0   0  ..\..\ARCHIV~1\PICC\drivers\stdlib.h
+  121    38   4  ..\..\ARCHIV~1\PICC\drivers\input.c
+  143    53   5  ..\..\ARCHIV~1\PICC\drivers\ds1302.c
+  246   111  11  sht75.c
+   73    24   2  ..\..\ARCHIV~1\PICC\drivers\24512.C
+  124    61   6  timeFunc.c
+   37     0   0  ..\..\ARCHIV~1\PICC\drivers\stdio.h
+----- -----
+ 4291   983 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     48   0   1             @delay_ms1
+0     10   0   0             @PUTCHARI_BIU_1
+0     24   0   0             @GETCH_BIU_1
+0    116   0   9   272  5.5  strcat
+0    120   0   5   231  6.6  strcmp
+0    122   0   9   288  6.0  strpbrk
+0    144   0   9   346  7.5  strspn
+0    144   0   9   318  6.5  strstr
+0    184   0  10   475  7.2  strtok
+0     66   0   5   129  4.6  strlen
+0     78   0   2             @MUL88
+0    246   1  11             @MULFF
+0     54   0   2             @ITOF
+0    632   2  16             @ADDFF
+0    350   1  14             @DIVFF
+0    482   1   9  1815 10.5  atoi
+0     92   0  14             @MUL3232
+0    612   1  19  1542 12.4  strtof
+0    358   1   2   974  3.4  modulo_gsm_init
+0      6   0   0             @const383
+0     34   0   2             @PSTRINGC_9600_31766_31767
+0     12   0   0             @const385
+0     12   0   0             @const386
+0     14   0   0             @const387
+0     16   0   0             @const388
+0     22   0   0             @const389
+0     46   0   3   199  3.6  clear_buffer_gsm
+0     54   0   6   157  4.8  wait_response_ok
+0     60   0   2   178  4.9  wait_for_call_ready
+0     82   0   6   250  5.2  gprs_response
+0    122   0   1   269  4.8  borrar_sms
+0     12   0   0             @const397
+0     42   0   3             @PSTRINGCN_9600_31766_31767
+0     44   0   3             @DIV88
+0    224   1   6             @PRINTF_D_9600_31766_31767
+0     90   0   1   173  3.2  borrar_sms_inicio
+0     12   0   0             @const408
+0     40   0   2   199  4.3  write_ds1302_byte
+0     22   0   2    94  1.8  write_ds1302
+0     76   0   3   401  4.9  read_ds1302
+0     80   0   2   247  3.7  rtc_init
+0     50   0   4   160  5.0  get_bcd
+0     50   0   3   160  4.2  rm_bcd
+0    188   0   7   402  2.2  rtc_set_datetime
+ Inline        5   238  3.1  rtc_get_date
+ Inline        4   170  3.0  rtc_get_time
+0     56   0   0   380  1.9  comstart
+0    102   0   5   682  6.9  comwrite
+0    154   0   3  1280  6.6  comread
+0     60   0   2   225  5.0  comwait
+0     54   0   1   290  3.7  comreset
+0     64   0   4   176  3.1  measuretemp
+0     64   0   4   176  3.1  measurehumid
+ Inline       28   386  5.1  calculate_data
+ Inline       16   228  3.0  sht_rd
+0     16   0   0    36  0.7  sht_init
+0     84   0   3             @I2C_READ_1
+0     90   0   1             @I2C_WRITE_1
+0      8   0   0    32  1.0  init_ext_eeprom
+0    202   0   6   331  4.0  write_ext_eeprom
+0    124   0   5   216  2.9  read_ext_eeprom
+0     50   0   0             @const508
+0    684   2  25   658 10.4  Date2Sec
+0    128   0  13             @DIV3232
+0     34   0   1             @SPRINTF
+0    250   1   6             @PRINTF_D_541
+0    336   1  15   687  3.9  CurrDateTime
+0     46   0   5   213  4.5  ReadAlarmStruct
+0     46   0   5   213  4.5  WriteAlarmStruct
+0   1766   4  14  3557 10.8  CheckAlarmValues
+0    122   0  10             @FLT
+0     68   0   5             @FTOSD
+0    446   1  13             @PRINTF_L32D_541FPFPF
+0     12   0   0             @const654
+0     40   0   3             @PSTRINGCN_541
+0     36   0   2             @PSTRINGR_541
+0     12   0   0             @const659
+0     12   0   0             @const661
+0     12   0   0             @const663
+0    186   0   2   221  2.6  reinicioOK
+0     22   0   0             @const665
+0     38   0   3    78  2.8  concatVariableSeparator
+0    798   2 168  1492  5.4  construirTextoSms
+0    404   1  12   414  6.3  obtenerPresion
+0    434   1   8   453  5.6  obtenerIntensidad
+0     58   0   4             @DTOF
+0     94   0   0   268  3.2  TIMER0_isr
+0     30   0   1   158  3.9  EXT2_isr
+0     78   0   4   145  3.5  RDA_isr
+0    118   0   7   297  5.7  GetEEPROMMed
+0     34   0   5             @MUL1616
+0    320   1  14   616  9.0  GetLastRainMed
+0     60   0   4             @SFTOI
+0   1184   3   3  1047  7.0  Leer_sensores
+0    274   1   4   771  7.7  StoreMed2EEPROM
+0    516   1  14  1237  9.7  LeerSmsCmd
+0     14   0   0             @const714
+0     28   0   0             @const715
+0     28   0   0             @const716
+0    154   0   7   395  6.3  EnviarSms
+0     14   0   0             @const719
+0     38   0   2             @PSTRINGR_9600_31766_31767
+0     34   0   5   111  3.8  clear_var
+0     64   0   0   138  2.2  inicializa_eeprom
+0   2476   6  64  7438  9.5  ProcessMessage
+0     32   0   0             @MEMSET
+0     28   0   0             @const744
+0     30   0   0             @const745
+0     30   0   0             @const746
+0     32   0   0             @const747
+0     34   0   0             @const748
+0     34   0   0             @const749
+0     34   0   0             @const750
+0     60   0   1   186  3.9  GenerateToken
+0   1748   4   2  4851 11.3  MAIN
+0     28   0   0             @const756
+0    248   1   9             @PRINTF_LD_541
+0     28   0   0             @const760
+0     14   0   0             @const761
+0    134   0   2             @PRINTF_U_541
+0     14   0   0             @const765
+0     14   0   0             @const766
+0     14   0   0             @const767
+
+Program metrics:
+    Functions               62
+    Statements              983
+    Comments                928
+    Volume (V)              71550
+    Difficilty (D)          317.1
+    Effort to implement (E) 22692105
+    Time to implement (T)   350 hours, 11 minutes
+    Est Delivered Bugs (B)  27
+    Cyclomatic Complexity   167
+    Maintainability (MI)    75
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-0FCBE  20524  44006  
+
+
+

@@ -1,0 +1,36 @@
+[PROJECT]
+Target=mainSrc.HEX
+Development_Mode=2
+Processor=0x8258
+Processor_Text=PIC18F258
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=C:\ETA\fuentes\mainSrc.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[mainSrc.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=mainSrc.c
+
+[Windows]
+0=0000 mainSrc.c 0 0 796 451 3 0
+
+[Units]
+Count=1
+1=mainSrc (main)

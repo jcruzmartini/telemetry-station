@@ -1,0 +1,2 @@
+
+void GetDateTime(char *dt);

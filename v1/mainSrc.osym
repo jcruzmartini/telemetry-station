@@ -1,0 +1,99 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+C1OUT
+rs232_errors
+C2OUT
+buffer
+buf_index
+_Randseed
+ok
+sms_noleido
+caracter
+guia
+done
+mes
+S2Ddays
+dtFecha
+dtHora
+@sprintf_string
+flagInt2Edge
+modemIni
+startMeasure
+modemRestart
+savePluv
+startCheck
+memoryFull
+smsReceived
+smsInbox
+sendStatus
+adc_val
+countPrec
+timeMed
+timeMedTmp
+currSmsId
+timeChkTmp
+timeChk
+ctePluv
+runOk
+resProc
+idLastSmsOut
+sensorHab
+tokenSrv
+tokenEma
+smsText
+smsOut
+telnum
+charFloat1
+charFloat2
+charFloat3
+address
+contData
+data
+temp
+tDVar
+resFunc
+dataMed
+readMed
+alarm
+
+Project Directory:
+    C:\ETA\Src\
+
+Project Files:
+    mainSrc.c
+    ..\..\ARCHIV~1\PICC\devices\18F2620.h
+    modemGsm.c
+    ..\..\ARCHIV~1\PICC\drivers\string.h
+    ..\..\ARCHIV~1\PICC\drivers\stddef.h
+    ..\..\ARCHIV~1\PICC\drivers\ctype.h
+    ..\..\ARCHIV~1\PICC\drivers\stdlib.h
+    ..\..\ARCHIV~1\PICC\drivers\input.c
+    ..\..\ARCHIV~1\PICC\drivers\ds1302.c
+    sht75.c
+    ..\..\ARCHIV~1\PICC\drivers\24512.C
+    timeFunc.c
+    ..\..\ARCHIV~1\PICC\drivers\stdio.h
+
+Units:
+    mainSrc.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F2620
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Output file:    Relocatable
+
+Output Files:
+    Errors:      mainSrc.err
+    Ext Symbols: mainSrc.esym
+    Object:      mainSrc.o
+    Symbols:     mainSrc.osym
